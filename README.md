@@ -10,3 +10,6 @@ This project folder contain mini projects/features built using javascript, html 
     
 4. Rotating Navigation  ->   (<i>Link </i> :  https://rotating-navigations-project.netlify.app/ )
     (Click on nav menu [top-left] )
+  
+5. Split Page    ->   (<i>Link </i> :  https://split-page-project.netlify.app/ )
+    (hover mouse left or right )
