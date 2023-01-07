@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/solid.css">
+    <link rel="stylesheet" href="style.css">
+    <title>FAQ Collapse</title>
+</head>
+
+<body>
+    <h1>Frequently Asked Questions</h1>
+    <div class="container">
+        <div class="box">
+            <h3 class="box-title">
+                Explain the difference between cookies, session storage, and local storage?
+            </h3>
+
+            <p class="box-text">
+                Cookies, session storage, and local storage are all mechanisms for storing data in a web browser, but
+                they have some
+                differences: </p>
+            <p class="box-text">
+                Cookies are small pieces of data that are stored in a text file on the user's computer by the web
+                browser. They can be
+                used to store information such as login credentials or preferences, and they are sent back to the server
+                with each
+                request. Cookies have a size limit of 4KB and are usually used to store data that is needed on the
+                server, such as
+                session identifiers.
+            </p>
+
+            <p class="box-text">Cookies are small pieces of data that are stored in a text file on the user's computer
+                by the web browser. They can be
+                used to store information such as login credentials or preferences, and they are sent back to the server
+                with each
+                request. Cookies have a size limit of 4KB and are usually used to store data that is needed on the
+                server, such as
+                session identifiers.</p>
+
+            <p class="box-text">Session storage is a type of storage that is specific to a single browser tab or window.
+                It allows you to store data
+                that is only needed for the duration of the user's session, such as the contents of a shopping cart.
+                Session storage is
+                stored in memory and is deleted when the user closes the tab or window.</p>
+
+            <p class="box-text">Local storage is similar to session storage, but it persists even when the user closes
+                the tab or window. Local storage
+                is stored in a separate file on the user's computer and has a larger size limit than cookies (typically
+                5MB or more).
+                Local storage is typically used to store data that needs to be available even when the user is not
+                actively using the
+                site, such as saved preferences or settings.</p>
+            <p class="box-text">In summary, cookies are used to store data that is needed on the server, while session
+                storage and local
+                storage are
+                used to store data that is needed on the client (web browser). Session storage is specific to a single
+                tab
+                or window and
+                is deleted when the user closes it, while local storage is persistent and is not deleted when the user
+                closes the tab or
+                window.</p>
+
+            <button class="box-toggle">
+                <i class="uis uis-angle-down"></i>
+                <i class="uis uis-times-circle"></i>
+            </button>
+        </div>
+
+        <div class="box ">
+            <h3 class="box-title">
+                What does CORS stand for and what issue does it address?
+            </h3>
+
+            <p class="box-text">
+                CORS stands for "Cross-Origin Resource Sharing". It is a security feature implemented by web browsers
+                that blocks web
+                pages from making requests to a different domain than the one that served the web page.
+            </p>
+            <p class="box-text">
+                For example, if a web page served from example.com makes a request to api.example.net, the browser will
+                block the
+                request by default, because api.example.net is a different domain than example.com. This is known as the
+                "same-origin
+                policy".
+            </p>
+
+            <p class="box-text">
+                CORS addresses this issue by allowing web servers to specify a list of domains that are allowed to make
+                requests to the
+                server. When a web page makes a request to a server with CORS enabled, the browser will check the
+                server's list of
+                allowed domains before deciding whether to block the request.
+            </p>
+
+            <button class="box-toggle">
+                <i class="uis uis-angle-down"></i>
+                <i class="uis uis-times-circle"></i>
+            </button>
+        </div>
+
+        <div class="box">
+            <h3 class="box-title">
+                Can you describe the difference between progressive enhancement and graceful degradation?
+            </h3>
+
+            <p class="box-text">
+                Progressive enhancement and graceful degradation are two approaches to web design that focus on ensuring
+                that a web site
+                is accessible and functional for all users, regardless of the capabilities of their device or web
+                browser.</p>
+            <p class="box-text">Progressive enhancement is a design approach that starts with a basic, functional web
+                page and then adds
+                additional
+                layers of functionality and design on top of it, using modern web technologies such as HTML5, CSS3, and
+                JavaScript. The
+                idea behind progressive enhancement is that all users should be able to access the core content and
+                functionality of the
+                site, even if they are using an older or less capable device or browser.</p>
+
+            <p class="box-text">Graceful degradation, on the other hand, is a design approach that starts with a
+                feature-rich,
+                visually-appealing web
+                page and then accommodates for older or less capable devices or browsers by removing or simplifying
+                features as needed.
+                The idea behind graceful degradation is that users with newer or more capable devices or browsers will
+                have a better
+                experience, while users with older or less capable devices or browsers will still be able to access the
+                core content and
+                functionality of the site.</p>
+
+            <p class="box-text">
+                Both progressive enhancement and graceful degradation are aimed at ensuring that a web site is
+                accessible and functional
+                for all users, but they approach this goal in different ways. Progressive enhancement focuses on
+                building up from a
+                basic foundation, while graceful degradation focuses on starting with a more advanced foundation and
+                then simplifying as
+                needed.
+            </p>
+
+            <button class="box-toggle">
+                <i class="uis uis-angle-down"></i>
+                <i class="uis uis-times-circle"></i>
+            </button>
+        </div>
+
+        <div class="box ">
+            <h3 class="box-title">
+                Explain event delegation.
+            </h3>
+
+            <p class="box-text">
+                Event delegation is a technique for listening for events on multiple elements, even if they are added to
+                the page
+                dynamically after the page has loaded. It involves setting up a single event listener on a parent
+                element, and then
+                using the `event.target` property to determine which child element the event actually occurred on.
+            </p>
+            <p class="box-text">
+                Event delegation is useful because it allows you to avoid setting up separate event listeners for each
+                child element.
+                This can be particularly useful when you have a large number of elements, or when the elements are
+                dynamically added to
+                the page after the page has loaded.
+            </p>
+
+
+            <button class="box-toggle">
+                <i class="uis uis-angle-down"></i>
+                <i class="uis uis-times-circle"></i>
+            </button>
+        </div>
+
+        <div class="box">
+            <h3 class="box-title">
+                When building a new web site or maintaining one, can you explain some techniques you have used to
+                increase performance?
+            </h3>
+
+            <p class="box-text">
+                There are many techniques that can be used to increase the performance of a web site. Here are a few
+                examples:</p>
+
+            <p class="box-text">
+                Optimize images: Large images can take a long time to load, so it is important to optimize them for the
+                web. This can be
+                done by compressing the images and using the appropriate image file format (such as JPEG for photographs
+                and PNG for
+                graphics with transparent backgrounds).</p>
+            <p class="box-text">Use a content delivery network (CDN): A CDN is a network of servers that are used to
+                deliver content to
+                users based on
+                their geographic location. Using a CDN can reduce the load on the server and improve the speed at which
+                content is
+                delivered to users.</p>
+
+            <p class="box-text">Minify CSS, JavaScript, and HTML: Minification is the process of removing unnecessary
+                characters from
+                code, such as
+                whitespace and comments. Minifying CSS, JavaScript, and HTML can reduce the size of the code and improve
+                the speed at
+                which it is loaded.</p>
+            <p class="box-text">Use asynchronous loading for JavaScript: JavaScript files can block the rendering of a
+                page if they are
+                loaded
+                synchronously. To improve performance, it is best to load JavaScript files asynchronously, so that they
+                do not block the
+                rendering of the page.</p>
+            <p class="box-text">Use caching: Caching can help to improve the performance of a web site by storing
+                frequently-used
+                resources in the
+                browser's cache. This allows the resources to be loaded more quickly on subsequent visits to the site.
+            </p>
+            <p class="box-text">Use a performance monitoring tool: Performance monitoring tools such as Lighthouse or
+                PageSpeed Insights
+                can help to
+                identify performance issues and suggest ways to fix them.</p>
+            <p class="box-text">Optimize the server: The performance of a web site can also be improved by optimizing
+                the server on
+                which it is running.
+                This can involve tuning the server's configuration, using a faster server hardware, or implementing
+                caching on the
+                server.</p>
+
+            <button class="box-toggle">
+                <i class="uis uis-angle-down"></i>
+                <i class="uis uis-times-circle"></i>
+            </button>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
