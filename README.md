@@ -13,3 +13,6 @@ This project folder contain mini projects/features built using javascript, html 
   
 5. Split Page    ->   (<i>Link </i> :  https://split-page-project.netlify.app/ )
     (hover mouse left or right )
+
+6. FAQ Collapse   ->  (<i>Link </i> :   https://faq-collapse-project.netlify.app/ )
+    (Click on down arrow.  tip: 5 javascript questions are answered in this project.)
