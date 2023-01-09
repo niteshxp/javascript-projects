@@ -9,12 +9,12 @@ counters.forEach(counter => {
 
         const increment = target / 200
 
-        if (c > target) {
-            counter.innerText = `${math.ceil(c + increment)}`
+        if (c < target) {
+            counter.innerText = `${Math.ceil(c + increment)}`
             setTimeout(updateCounter, 1)
         }
         else {
-            counter.innertext = target
+            counter.innerText = target
         }
     }
 
