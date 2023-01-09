@@ -17,5 +17,5 @@ This project folder contain mini projects/features built using javascript, html 
 5. FAQ Collapse   ->  (<i>Link </i> :   https://faq-collapse-project.netlify.app/ )
     (Click on down arrow.  tip: 5 javascript questions are answered in this project.)
 
-6. Increase Counter  ->   (<i>Link </i> : https://joyful-arithmetic-f43362.netlify.app/ )
+6. Increase Counter  ->   (<i>Link </i> : https://increase-counter-project.netlify.app/ )
     (Refresh the page)
