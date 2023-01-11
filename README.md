@@ -19,3 +19,5 @@ This project folder contain mini projects/features built using javascript, html 
 
 6. Increase Counter  ->   (<i>Link </i> : https://increase-counter-project.netlify.app/ )
     (Refresh the page)
+7. Random Image Feed  ->  (<i>Link </i> : https://random-image-feed-project.netlify.app/ )
+    (Random Image Feed)
