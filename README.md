@@ -21,3 +21,5 @@ This project folder contain mini projects/features built using javascript, html 
     (Refresh the page)
 7. Random Image Feed  ->  (<i>Link </i> : https://random-image-feed-project.netlify.app/ )
     (Random Image Feed)
+8. Image Carousel   ->   (<i>Link </i> : https://image-carousel-project.netlify.app/ )
+    (Click on next and prev)
