@@ -23,3 +23,5 @@ This project folder contain mini projects/features built using javascript, html 
     (Random Image Feed)
 8. Image Carousel   ->   (<i>Link </i> : https://image-carousel-project.netlify.app/ )
     (Click on next and prev)
+9. Theme Clock   ->  (<i>Link </i> : https://theme-clock-project.netlify.app/ )
+    (Clock with dark/light mode)
