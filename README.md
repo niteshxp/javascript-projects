@@ -19,9 +19,15 @@ This project folder contain mini projects/features built using javascript, html 
 
 6. Increase Counter  ->   (<i>Link </i> : https://increase-counter-project.netlify.app/ )
     (Refresh the page)
+    
 7. Random Image Feed  ->  (<i>Link </i> : https://random-image-feed-project.netlify.app/ )
     (Random Image Feed)
+    
 8. Image Carousel   ->   (<i>Link </i> : https://image-carousel-project.netlify.app/ )
     (Click on next and prev)
+    
 9. Theme Clock   ->  (<i>Link </i> : https://theme-clock-project.netlify.app/ )
     (Clock with dark/light mode)
+    
+10. Netflix Navigation   ->  (<i>Link </i> : https://netflix-navigation-project.netlify.app/ )
+    (Click on menu)
